@@ -30,3 +30,7 @@ Rust allows us to shadow the previous value of guess with a new one. Usually use
 
 the underscore "_" is a catchall value, Err(_) we’re saying we want to match all Err values, no matter what
 information they have inside them.
+
+Rust does not infer field types inside a struct.
+
+Rust is statically typed with no runtime type info (RTTI) by default.
